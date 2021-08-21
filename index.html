@@ -20,7 +20,7 @@
                     <div class="col-lg-6">
                         <img src="images/mac.png" class="img-fluid" alt="">
                     </div>
-                    <!-- This is column  -->
+                    <!-- This is details part  -->
                     <div class="col-lg-6">
                         <div class="mb-5">
                             <h1>Cutomize your Blue 24-inch iMac with Apple M1 chip.
@@ -31,23 +31,23 @@
                         <div class="memory mb-5">
                             <h5>Memory</h5>
                             <div class="">
-                                <button class="my-button">8GB unified memory</button>
-                                <button class="my-button">16GB unified memory</button>
+                                <button id="memory8Gb" class="my-button">8GB unified memory</button>
+                                <button id="memory16Gb" class="my-button">16GB unified memory</button>
                             </div>
                         </div>
                         <div class="storage mb-5">
                             <h5>Storage</h5>
                             <div class="">
-                                <button class="my-button">256GB SSD storage</button>
-                                <button class="my-button">512GB SSD storage</button>
-                                <button class="my-button">1TB SSD storage</button>
+                                <button id="storage256GB" class="my-button">256GB SSD storage</button>
+                                <button id="storage512GB" class="my-button">512GB SSD storage</button>
+                                <button id="storage1TB" class="my-button">1TB SSD storage</button>
                             </div>
                         </div>
                         <div class="delivery mb-5">
                             <h5>Choose your delivery option</h5>
                             <div class="">
-                                <button class="my-button">Friday, Aug 25 FREE Prime Delivery</button>
-                                <button type="button" class="my-button">Friday, Aug 21 Delivery charge $20</button>
+                                <button id="deliveryFast" class="my-button">Friday, Aug 25 FREE Prime Delivery</button>
+                                <button id="deliveryUrgent" type="button" class="my-button">Friday, Aug 21 Delivery charge $20</button>
                             </div>
                         </div>
                         <!-- My option part is end  -->
@@ -61,23 +61,27 @@
                                         <tbody>
                                           <tr>
                                             <td><h5>Best Price</h5></td>
-                                            <td><h5>$<span>1299</span></h5></td>
+                                            <td><h5>$<span id="bestPrice">1299</span></h5></td>
                                           </tr>
+                                          <!-- Memory Part  -->
                                           <tr>
                                             <td><h5>Extra Memory Cost</h5></td>
-                                            <td><h5>$<span>0</span></h5></td>
+                                            <td><h5>$<span id="memoryCost">0</span></h5></td>
                                           </tr>
+                                          <!-- Storage Part  -->
                                           <tr>
                                             <td><h5>Extra Storage Cost</h5></td>
-                                            <td><h5>$<span>0</span></h5></td>
+                                            <td><h5>$<span id="storageCost">0</span></h5></td>
                                           </tr>
+                                          <!-- Delivery Part  -->
                                           <tr class="border-dark">
                                             <td><h5>Delivery Cost</h5></td>
-                                            <td><h5>$<span>0</span></h5></td>
+                                            <td><h5>$<span id="deliveryCost">0</span></h5></td>
                                           </tr>
+                                          <!-- Subtotal Price Part  -->
                                           <tr class="table table-borderless">
                                             <td><h5>Total Price</h5></td>
-                                            <td><h5>$<span>1299</span></h5></td>
+                                            <td><h5>$<span id="subTotalPrice">1299</span></h5></td>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -92,7 +96,7 @@
                             <div class="col-6">
                                 <h6>Add promo code</h6>
                                 <div class="d-flex">
-                                    <input class="py-1 px-2" type="text"><button class="my-button" type="submit">Apply</button>
+                                    <input id="promoInput" class="py-1 px-2" type="text"><button id="promoButton" class="my-button" type="submit">Apply</button>
                                 </div>
                             </div>
                             <div class="col-6"></div>
@@ -102,7 +106,7 @@
                 </div>
                 <hr>
                 <div class="text-center">
-                    <h1>Total: $<span>1299</span></h1>
+                    <h1>Total: $<span id="tolalPrice">1299</span></h1>
                 </div>
             </div>
         </section>
@@ -122,7 +126,7 @@
     <!-- Footer End  -->
 
     <!-- Bootstrap JS  -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
     <!-- My Script  -->
     <script src="js/script.js"></script>
 </body>
