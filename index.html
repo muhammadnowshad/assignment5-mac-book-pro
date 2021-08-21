@@ -15,13 +15,13 @@
     <header>
         <section class="my-5">
             <div class="container">
-                <div class="row gx-5">
+                <div class="row">
                     <!-- This is Image  -->
-                    <div class="col-lg-6">
-                        <img src="images/mac.png" class="img-fluid" alt="">
+                    <div class="col-12 col-lg-6">
+                        <img src="images/mac.png" class="img-fluid my-image" alt="">
                     </div>
                     <!-- This is details part  -->
-                    <div class="col-lg-6">
+                    <div class="col-12 col-lg-6">
                         <div class="mb-5">
                             <h1>Cutomize your Blue 24-inch iMac with Apple M1 chip.
                             </h1>
@@ -33,8 +33,8 @@
                         <div class="memory mb-5">
                             <h5>Memory</h5>
                             <div class="">
-                                <button id="memory8Gb" class="my-button">8GB unified memory</button>
-                                <button id="memory16Gb" class="my-button">16GB unified memory</button>
+                                <button id="memory8Gb" class="btn-outline-secondary my-button mb-2">8GB unified memory</button>
+                                <button id="memory16Gb" class="btn-outline-secondary my-button">16GB unified memory</button>
                             </div>
                         </div>
                         <!-- Memory part end  -->
@@ -42,9 +42,9 @@
                         <div class="storage mb-5">
                             <h5>Storage</h5>
                             <div class="">
-                                <button id="storage256GB" class="my-button">256GB SSD storage</button>
-                                <button id="storage512GB" class="my-button">512GB SSD storage</button>
-                                <button id="storage1TB" class="my-button">1TB SSD storage</button>
+                                <button id="storage256GB" class="btn-outline-secondary my-button mb-2">256GB SSD storage</button>
+                                <button id="storage512GB" class="btn-outline-secondary my-button mb-2">512GB SSD storage</button>
+                                <button id="storage1TB" class="btn-outline-secondary my-button">1TB SSD storage</button>
                             </div>
                         </div>
                         <!-- Storage part end  -->
@@ -52,8 +52,8 @@
                         <div class="delivery mb-5">
                             <h5>Choose your delivery option</h5>
                             <div class="">
-                                <button id="deliveryFast" class="my-button">Friday, Aug 25 FREE Prime Delivery</button>
-                                <button id="deliveryUrgent" type="button" class="my-button">Friday, Aug 21 Delivery charge $20</button>
+                                <button id="deliveryFast" class="btn-outline-secondary my-button mb-2">Friday, Aug 25 FREE Prime Delivery</button>
+                                <button id="deliveryUrgent" type="button" class="btn-outline-secondary my-button">Friday, Aug 21 Delivery charge $20</button>
                             </div>
                         </div>
                         <!-- Delivery part end  -->
@@ -62,7 +62,7 @@
                         <!-- Calculation part start  -->
                         <div>
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-12 col-lg-7">
                                     <!-- Table start  -->
                                     <table class="table">
                                         <thead></thead>
@@ -87,7 +87,7 @@
                                             <td><h5>$<span id="deliveryCost">0</span></h5></td>
                                           </tr>
                                           <!-- Subtotal Price  -->
-                                          <tr class="table table-borderless">
+                                          <tr class="border-white">
                                             <td><h5>Total Price</h5></td>
                                             <td><h5>$<span id="subTotalPrice">1299</span></h5></td>
                                           </tr>
@@ -95,20 +95,20 @@
                                     </table>
                                       <!-- Table end  -->
                                 </div>
-                                <div class="col-5"></div>
+                                <div class="col-lg-5"></div>
                             </div>
                         </div>
                         <!-- Calculation part end  -->
                         
                         <!-- Promo code start  -->
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <h6>Add promo code</h6>
                                 <div class="d-flex">
-                                    <input id="promoInput" class="py-1 px-2" type="text"><button id="promoButton" class="my-button" type="submit">Apply</button>
+                                    <input id="promoInput" class="btn py-1 px-2" type="text"><button id="promoButton" class="btn-outline-danger apply-button" type="submit">Apply</button>
                                 </div>
                             </div>
-                            <div class="col-6"></div>
+                            <div class="col-lg-6"></div>
                         </div>
                         <!-- Promo code end  -->
                     </div>

@@ -3,14 +3,40 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* button style  */
 .my-button{
     background-color: white;
     color: #4d5156;
     padding: 6px 12px;
-    border: 1px solid #7C7F81;
+    border: 2px solid #7C7F81;
     border-radius: 5px;
 }
 .my-button:hover{
     background-color: black;
     color: white;
+}
+
+/* Apply Button  */
+.apply-button{
+    background-color: #DD3546;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.apply-button:hover{
+    border: 2px solid #DD3546;
+    color:  #DD3546;
+    background-color: white;
+}
+
+/* image Style  */
+.my-image{
+    margin: 0 auto;
+    width: 85%;
+}
+/* promocode Input  */
+#promoInput{
+    border: 2px solid #7C7F81;
+    border-radius: 5px;
 }
